@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# 🚀 Plateforme de Réseau Professionnel & Portfolios
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Une application web développée en **React JS** permettant de centraliser les portfolios de différents professionnels. Ce projet a évolué d'une simple gestion de portfolio individuel à un véritable mini-réseau social professionnel.
 
-## Available Scripts
+## ✨ Fonctionnalités Principales
+- **Authentification complète** : Inscription, connexion et persistance de session (via React Context et SessionStorage).
+- **Réseau multi-acteurs** : Découverte des professionnels inscrits avec une barre de recherche dynamique (par nom, prénom ou profil professionnel).
+- **Gestion de Portfolio (CRUD)** : Chaque utilisateur est administrateur de son propre espace. Il peut ajouter, modifier ou supprimer ses projets et compétences.
+- **Affichage dynamique** : Interfaces modernes, adaptatives, et séparation claire entre projets réalisés et compétences techniques.
 
-In the project directory, you can run:
+## 🛠️ Technologies Utilisées
+- **Frontend** : React JS, React Router DOM, CSS natif.
+- **Backend / API** : JSON-Server (API REST factice avec `base.json`).
+- **Serveur de déploiement** : Express.js (Node) pour servir l'application React et l'API sur le même port.
 
-### `npm start`
+## ⚙️ Installation en local (Développement)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Cloner le dépôt** :
+   ```bash
+   git clone https://github.com/votre-nom-utilisateur/mgelo126_hachimou_akram_react.git
+   cd mgelo126_hachimou_akram_react
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Installer les dépendances** :
+   ```bash
+   npm install
+   ```
 
-### `npm test`
+3. **Lancer le projet** :
+   Pour démarrer à la fois l'interface React et le serveur d'API localement :
+   ```bash
+   npm run dev
+   ```
+   L'application sera accessible sur `http://localhost:3000` et l'API sur le port `3001`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🌐 Déploiement (Production)
+Le projet est configuré pour être déployé facilement sur une plateforme comme **Render.com** en tant que Web Service Node.js, grâce au fichier `server.js` inclus qui orchestre le frontend et le backend.
+Commande de build : `npm install && npm run build`
+Commande de démarrage : `npm start`

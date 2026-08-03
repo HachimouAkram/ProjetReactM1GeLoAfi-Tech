@@ -1,0 +1,112 @@
+{
+  "elements": [
+    {
+      "type": "projet",
+      "label": "Gestion de cabinet 1",
+      "image": "https://th.bing.com/th/id/R.9718412c2d937d59978e7367833ede67?rik=5heU1P1TNxFpAQ&pid=ImgRaw&r=0",
+      "description": "Une aplication qui gerer la gestion de cabinet d avocat",
+      "link": "",
+      "userId": "9OpitSExhuo",
+      "id": "-nN4XNSltvk"
+    },
+    {
+      "type": "competence",
+      "label": "React natif",
+      "image": "https://lh7-us.googleusercontent.com/I5l5Ix_kAb7CJZ31ImmJshFV4vC9af-Tr5XriOY1awH7HGhXYNs3guU-iSGCYrEHkdIWMAdlGKlUzEEwA9XwjNnqY42940Ck3ZKT5CfEkPQfCQSAGh9ilI_3bf9ilFrm3d75waCPvmSb6xbh",
+      "description": "Compétence en développement d application mobil Hybride",
+      "level": "Avancé",
+      "userId": "GclIIXDdnOw",
+      "id": "bq-5qbEZjjQ"
+    },
+    {
+      "type": "projet",
+      "label": "Gestion des Inscription et paiment en ligne ",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVqwgVRp8Fq4pjhIBzidXIfr5iyZa_VL_TxE4HFIJCD-1OaWMAUyFdOMWP&s=10",
+      "description": "Application qui gère les inscriptions et les paiements",
+      "link": "",
+      "userId": "9OpitSExhuo",
+      "id": "aEUL76BPQDg"
+    },
+    {
+      "type": "competence",
+      "label": "Laravel",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlZj5ebBmDXrSiy9N686T5pUk6wkgSSq6Q4C11m07TZCRQ7AP-U_iRhe5b&s=10",
+      "description": "Backend",
+      "level": "Avancé",
+      "userId": "9OpitSExhuo",
+      "id": "LZyeb1mIv3Y"
+    },
+    {
+      "type": "competence",
+      "label": "Sprint Boot 2",
+      "image": "https://blog.mossroy.fr/wp-content/uploads/2019/09/spring-boot-logo.png",
+      "description": "Backend",
+      "level": "Avancé",
+      "userId": "9OpitSExhuo",
+      "id": "yw4PnM99Z-s"
+    }
+  ],
+  "users": [
+    {
+      "username": "hachim@gmail.com",
+      "password": "123456789",
+      "nom": "Hachimou",
+      "prenom": "Akram M'madi",
+      "profil": "Architect Logiciel ",
+      "telephone": "707619546",
+      "adresse": "grand dakar",
+      "id": "9OpitSExhuo"
+    },
+    {
+      "username": "akram@gmail.com",
+      "password": "123456789",
+      "nom": "Akram",
+      "prenom": "HACHIMOU",
+      "profil": "Développeur fulstack",
+      "telephone": "784886762",
+      "adresse": "grand dakar",
+      "id": "GclIIXDdnOw"
+    },
+    {
+      "username": "mouta@gmail.com",
+      "password": "123456789",
+      "nom": "Moutawassum",
+      "prenom": "Matouloub",
+      "profil": "Développeur web",
+      "telephone": "784886763",
+      "adresse": "Dieupeul",
+      "id": "K8ZwoIwpXY8"
+    },
+    {
+      "username": "hakim@gmail.com",
+      "password": "123456789",
+      "nom": "Hakim",
+      "prenom": "Djoumwa",
+      "profil": "Annaliste de système d information",
+      "telephone": "123456789",
+      "adresse": "Ouakam",
+      "id": "jrH-1L8Tg4Y"
+    },
+    {
+      "username": "bacar@gmail.com",
+      "password": "123456789",
+      "nom": "Bacar",
+      "prenom": "Matouloub",
+      "profil": "Programmeur ",
+      "telephone": "707619547",
+      "adresse": "Dakar plateau",
+      "id": "CvDilWWY75s"
+    },
+    {
+      "username": "soilhia@gmail.com",
+      "password": "123456789",
+      "nom": "Soilhia",
+      "prenom": "Kifia",
+      "profil": "Développeuse Mobil ",
+      "telephone": "787887878",
+      "adresse": "Fasse",
+      "id": "M81ILFR0trE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
