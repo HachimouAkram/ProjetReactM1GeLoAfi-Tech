@@ -20,7 +20,7 @@ const middlewares = jsonServer.defaults();
 app.use('/api', middlewares, router);
 
 // Pour toutes les autres requêtes, on renvoie le fichier index.html de React (gestion du routage côté client)
-app.get('*', (req, res) => {
+app.use((req, res) => {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
