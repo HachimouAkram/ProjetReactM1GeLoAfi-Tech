@@ -82,6 +82,13 @@
   gap: 2rem;
 }
 
+@media (max-width: 768px) {
+  .elements-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+}
+
 .empty-state {
   text-align: center;
   padding: 3rem;

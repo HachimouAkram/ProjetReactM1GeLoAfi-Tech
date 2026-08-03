@@ -61,7 +61,7 @@ const UserList = () => {
         </div>
       </div>
 
-      <div className="users-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '2rem' }}>
+      <div className="users-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))', gap: '2rem' }}>
         {users.filter(user => {
           const query = searchQuery.toLowerCase();
           const fullName = `${user.prenom} ${user.nom}`.toLowerCase();

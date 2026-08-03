@@ -20,28 +20,28 @@ const Navbar = () => {
           {currentUser ? (
             <>
               <Link to={`/portfolio/${currentUser.id}`} style={{ color: 'var(--text-color)', marginRight: '1.5rem', textDecoration: 'none', fontWeight: 'bold' }}>
-                Mon Portfolio
+                <span>Mon Portfolio</span>
               </Link>
               <Link to="/profile" style={{ color: 'var(--text-color)', marginRight: '1rem', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <span className="brand-accent" style={{ fontWeight: 'bold' }}>Profil:</span> <strong>{currentUser.username}</strong>
               </Link>
               <Link to="/add" className="btn btn-primary">
                 <Plus size={18} />
-                Ajouter
+                <span>Ajouter</span>
               </Link>
               <button onClick={logout} className="btn btn-danger">
                 <ShieldOff size={18} />
-                Déconnexion
+                <span>Déconnexion</span>
               </button>
             </>
           ) : (
             <>
               <Link to="/login" className="btn btn-secondary">
                 <Shield size={18} />
-                Connexion
+                <span>Connexion</span>
               </Link>
               <Link to="/register" className="btn btn-primary">
-                Inscription
+                <span>Inscription</span>
               </Link>
             </>
           )}

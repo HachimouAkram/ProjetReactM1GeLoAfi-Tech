@@ -115,12 +115,12 @@ const Register = () => {
             />
           </div>
           <button type="submit" className="btn btn-primary" style={{ width: '100%', marginTop: '1rem' }} disabled={loading}>
-            {loading ? 'Inscription en cours...' : 'S\'inscrire'}
+            <span>{loading ? 'Inscription en cours...' : 'S\'inscrire'}</span>
           </button>
         </form>
 
         <p style={{ marginTop: '1.5rem', textAlign: 'center' }}>
-          Déjà un compte ? <Link to="/login" style={{ color: 'var(--primary-light)' }}>Se connecter</Link>
+          <span>Déjà un compte ? </span><Link to="/login" style={{ color: 'var(--primary-light)' }}>Se connecter</Link>
         </p>
       </div>
     </div>

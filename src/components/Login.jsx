@@ -56,12 +56,12 @@ const Login = () => {
             />
           </div>
           <button type="submit" className="btn btn-primary" style={{ width: '100%', marginTop: '1rem' }} disabled={loading}>
-            {loading ? 'Connexion en cours...' : 'Se connecter'}
+            <span>{loading ? 'Connexion en cours...' : 'Se connecter'}</span>
           </button>
         </form>
 
         <p style={{ marginTop: '1.5rem', textAlign: 'center' }}>
-          Pas encore de compte ? <Link to="/register" style={{ color: 'var(--primary-light)' }}>S'inscrire</Link>
+          <span>Pas encore de compte ? </span><Link to="/register" style={{ color: 'var(--primary-light)' }}>S'inscrire</Link>
         </p>
       </div>
     </div>
